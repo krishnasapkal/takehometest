@@ -2,10 +2,10 @@ const addCustomer = require('./addCustomer');
 const addTransaction = require('./addTransaction');
 const getResult = require('./getResult');
 
-module.exports = (id) => {
+module.exports = async (id) => {
   switch (Number(id)) {
     case 1: {
-      addCustomer();
+    await addCustomer();
       break;
     }
     case 2 : {

@@ -20,10 +20,23 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       primaryKey: true
     },
-    Account: DataTypes.NUMBER,
-    Name: DataTypes.STRING,
-    Address: DataTypes.STRING,
-    PhoneNumber: DataTypes.NUMBER
+    Account: {
+      type: DataTypes.NUMBER,
+      unique: true,
+      allowNull: false
+    },
+    Name: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    Address: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    PhoneNumber: {
+      type: DataTypes.NUMBER,
+      allowNull: false
+    }
   }, {
     sequelize,
     modelName: 'Customer',

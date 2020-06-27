@@ -18,11 +18,27 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       primaryKey: true
     },
-    TransactionId: DataTypes.STRING,
-    TransactionDate: DataTypes.DATE,
-    FromAccount: DataTypes.NUMBER,
-    ToAccount: DataTypes.NUMBER,
-    Amount: DataTypes.NUMBER
+    TransactionId: {
+      type: DataTypes.STRING,
+      unique: true,
+      allowNull: false
+    },
+    TransactionDate: {
+      type: DataTypes.DATE,
+      allowNull: false
+    },
+    FromAccount: {
+      type: DataTypes.NUMBER,
+      allowNull: false
+    },
+    ToAccount: {
+      type: DataTypes.NUMBER,
+      allowNull: false
+    },
+    Amount: {
+      type: DataTypes.NUMBER,
+      allowNull: false
+    }
   }, {
     sequelize,
     modelName: 'Transaction',

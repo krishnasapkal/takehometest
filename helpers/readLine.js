@@ -6,7 +6,12 @@ module.exports = () => {
     output: process.stdout,
     terminal: false
   });
-  rl.on('line', function (line) {
-    return line;
+  
+  return new Promise((resolve) => {
+    rl.on('line', function (line) {
+      rl.close()
+      resolve(line);
+    })
   })
+
 }

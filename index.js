@@ -1,25 +1,20 @@
-const readline = require('readline');
 const db = require('./models')
 
 const startText = require('./helpers/startText');
 const operation = require('./controllers/index');
+const readline = require('./helpers/readLine');
 
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-  terminal: false
-});
-
-
-db.sequelize.authenticate().then(() => {
+db.sequelize.sync().then(async () => {
   console.log('Connection has been established successfully.');
-  startText();
-  rl.on('line', function (line) {
-    operation(line);
+  while (1) {
     startText();
-  })
+    line = await readline();
+    await operation(line)
+  }
+
 }).catch(err => {
+  console.log(err);
   console.log('Database connection failed');
 })
 
