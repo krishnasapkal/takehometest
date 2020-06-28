@@ -1,4 +1,6 @@
 Take home test - Flag suspicious activity.
+It is an small command line tool developed using Node.js. 
+Sqlite is used for data storage.
 
 ## Index
 * Install dependencies
@@ -6,7 +8,6 @@ Take home test - Flag suspicious activity.
 * Start App
 * Input format
 * Validation rules
-* Database
 
 ## Install Dependencies
 ```
@@ -50,9 +51,6 @@ Example -
 ##### 3 - Account number can have only 8 characters.
 ##### 4 - TrasactionId should have atleast 11 characters as given in the example database.
 
-
-## Database 
-#### sqlite
 
 
 
