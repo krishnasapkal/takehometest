@@ -4,6 +4,7 @@ Take home test - Flag suspicious activity.
 * Install Dependencies
 * Unit Tests
 * Start App
+* Input Format
 
 ## Install Dependencies
 ```
