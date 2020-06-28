@@ -14,7 +14,7 @@ module.exports = async (id) => {
       break;
     }
     case 3 : {
-      getResult();
+      await getResult();
       break;
     }
     case 4 : {
