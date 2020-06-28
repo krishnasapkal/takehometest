@@ -1,7 +1,13 @@
+//Dependencies
 const chalk = require('chalk');
+
+//Database functions
 const Transaction = require('../models').Transaction;
 
+//Validation function
 const transactionValidationSchema = require('../validationSchema/transactionSchema');
+
+//Helpers
 const readLine = require('../helpers/readLine').readline;
 
 

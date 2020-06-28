@@ -1,12 +1,18 @@
+//Dependencies
 const chalk = require('chalk');
 
+//Datanase functions
 const { Op, fn } = require("sequelize");
 const Transaction = require('../models').Transaction;
 const Customer = require('../models').Customer;
 
+
+//Helper functions 
 const printOutput = require('../helpers/printOutput');
 const filterData = require('../helpers/filterOutput');
 
+
+//Make output function
 module.exports = async () => {
   try {
     const transactionsData = await getData();
@@ -24,7 +30,7 @@ module.exports = async () => {
 }
 
 
-
+//Function to query database
 const getData = () => {
   return Transaction.findAll({
     include: [{

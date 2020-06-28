@@ -1,8 +1,17 @@
+//Dependencies
 const chalk = require('chalk');
+
+//Database function
 const Customer = require('../models').Customer;
+
+//helper function
 const readLine = require('../helpers/readLine').readline;
+
+//validation function
 const customerValidationSchema = require('../validationSchema/customerSchema');
 
+
+//Function to add customer
 module.exports = async () => {
   try {
     console.log('Enter customer details ')
@@ -29,6 +38,4 @@ module.exports = async () => {
     console.log(chalk.red(message || 'Something went wrong'));
     return;
   }
-
-
 }

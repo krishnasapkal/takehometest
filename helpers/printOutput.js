@@ -1,3 +1,4 @@
+//dependencies
 const chalk = require('chalk');
 
 module.exports = (sortedData, suspiciousAccounts) => {
