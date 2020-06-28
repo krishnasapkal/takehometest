@@ -38,7 +38,16 @@ Example -
 #### Each field should be seprated by '|' character
 #### All fields are required
 
-##### Above functionality is added to make testing possible on different combination of data.
+##### Above functionality is added to make testing possible on various combination of data.
+
+
+## Validation rules Assummptions
+
+### 1 - Transaction can be added only if `ToAccount` and `FromAccount` are available in the customers database.
+### 2 - Phone number can only have 10 characters as we are making application in India.
+### 3 - Account number can have only 8 characters 
+### 4 - TrasactionId should have atleast 11 characters as given in the example database.
+
 
 
 
