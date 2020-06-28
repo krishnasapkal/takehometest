@@ -52,6 +52,10 @@ Example -
 ##### 4 - TrasactionId should have atleast 11 characters as given in the example database.
 
 
+## Assumption `FromAccount` and `ToAccount` columns from Transactions tables are foreignkeys to the Customers table on 'Account' column 
+#### So that users can not add transaction with out having an account in the bank
+
+
 
 
 
