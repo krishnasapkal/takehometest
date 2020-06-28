@@ -43,10 +43,10 @@ Example -
 
 ## Validation rules Assummptions
 
-### 1 - Transaction can be added only if `ToAccount` and `FromAccount` are available in the customers database.
-### 2 - Phone number can only have 10 characters as we are making application in India.
-### 3 - Account number can have only 8 characters 
-### 4 - TrasactionId should have atleast 11 characters as given in the example database.
+##### 1 - Transaction can be added only if `ToAccount` and `FromAccount` are available in the customers database.
+##### 2 - Phone number can only have 10 characters as we are making application in India.
+##### 3 - Account number can have only 8 characters 
+##### 4 - TrasactionId should have atleast 11 characters as given in the example database.
 
 
 
