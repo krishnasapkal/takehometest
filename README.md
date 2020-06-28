@@ -1,5 +1,5 @@
 Take home test - Flag suspicious activity.
-###### It is an small command line tool developed using Node.js. 
+###### Small command line tool developed using Node.js. 
 ###### Sqlite is used for data storage.
 
 ## Index
