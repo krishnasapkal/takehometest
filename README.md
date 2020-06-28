@@ -38,3 +38,8 @@ Example -
 #### Each field should be seprated by '|' character
 #### All fields are required
 
+##### Above functionality is added to make testing possible on different combination of data.
+
+
+
+
