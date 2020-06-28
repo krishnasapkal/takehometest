@@ -1,0 +1,228 @@
+{
+  "queryResult": [
+    {
+      "id": 1,
+      "TransactionId": "T0175896345",
+      "TransactionDate": "2020-01-09 18:30:00.000 +00:00",
+      "Amount": 100000,
+      "createdAt": "2020-06-27 14:14:32.107 +00:00",
+      "updatedAt": "2020-06-27 14:14:32.107 +00:00",
+      "FromAccountId": 10010589,
+      "ToAccountId": 80074567,
+      "ToAccount": {
+        "id": 2,
+        "Account": 80074567,
+        "Name": "Mr. O Vilas",
+        "Address": "Flat no. 501, Green View Park,Hinjewandi, Pune",
+        "PhoneNumber": "9001045238",
+        "createdAt": "2020-06-27 14:14:21.367 +00:00",
+        "updatedAt": "2020-06-27 14:14:21.367 +00:00"
+      },
+      "FromAccount": {
+        "id": 1,
+        "Account": 10010589,
+        "Name": "Mr. S Kumar",
+        "Address": "Flat no. 501, Green View Park,Hinjewandi, Pune",
+        "PhoneNumber": "9001045238",
+        "createdAt": "2020-06-27 14:14:14.344 +00:00",
+        "updatedAt": "2020-06-27 14:14:14.344 +00:00"
+      }
+    },
+    {
+      "id": 3,
+      "TransactionId": "T0175896347",
+      "TransactionDate": "2020-01-20 18:30:00.000 +00:00",
+      "Amount": 6500,
+      "createdAt": "2020-06-27 14:34:47.005 +00:00",
+      "updatedAt": "2020-06-27 14:34:47.005 +00:00",
+      "FromAccountId": 78524169,
+      "ToAccountId": 30045721,
+      "ToAccount": {
+        "id": 3,
+        "Account": 30045721,
+        "Name": "Mr. A Gupta",
+        "Address": "Flat no. 103, Ganaga nagari, Kharadi, Pune",
+        "PhoneNumber": "7521457896",
+        "createdAt": "2020-06-27 14:33:50.405 +00:00",
+        "updatedAt": "2020-06-27 14:33:50.405 +00:00"
+      },
+      "FromAccount": {
+        "id": 5,
+        "Account": 78524169,
+        "Name": "Mrs. N Akira",
+        "Address": "Flat no. 103, Ganaga nagari, Kharadi, Pune",
+        "PhoneNumber": "7521457896",
+        "createdAt": "2020-06-27 14:34:03.992 +00:00",
+        "updatedAt": "2020-06-27 14:34:03.992 +00:00"
+      }
+    },
+    {
+      "id": 5,
+      "TransactionId": "T0175896349",
+      "TransactionDate": "2020-01-30 18:30:00.000 +00:00",
+      "Amount": 4200,
+      "createdAt": "2020-06-27 14:35:08.096 +00:00",
+      "updatedAt": "2020-06-27 14:35:08.096 +00:00",
+      "FromAccountId": 30045721,
+      "ToAccountId": 78524169,
+      "ToAccount": {
+        "id": 5,
+        "Account": 78524169,
+        "Name": "Mrs. N Akira",
+        "Address": "Flat no. 103, Ganaga nagari, Kharadi, Pune",
+        "PhoneNumber": "7521457896",
+        "createdAt": "2020-06-27 14:34:03.992 +00:00",
+        "updatedAt": "2020-06-27 14:34:03.992 +00:00"
+      },
+      "FromAccount": {
+        "id": 3,
+        "Account": 30045721,
+        "Name": "Mr. A Gupta",
+        "Address": "Flat no. 103, Ganaga nagari, Kharadi, Pune",
+        "PhoneNumber": "7521457896",
+        "createdAt": "2020-06-27 14:33:50.405 +00:00",
+        "updatedAt": "2020-06-27 14:33:50.405 +00:00"
+      }
+    },
+    {
+      "id": 6,
+      "TransactionId": "T0175896350",
+      "TransactionDate": "2020-02-03 18:30:00.000 +00:00",
+      "Amount": 8950,
+      "createdAt": "2020-06-27 14:35:15.647 +00:00",
+      "updatedAt": "2020-06-27 14:35:15.647 +00:00",
+      "FromAccountId": 80074567,
+      "ToAccountId": 10010589,
+      "ToAccount": {
+        "id": 1,
+        "Account": 10010589,
+        "Name": "Mr. S Kumar",
+        "Address": "Flat no. 501, Green View Park,Hinjewandi, Pune",
+        "PhoneNumber": "9001045238",
+        "createdAt": "2020-06-27 14:14:14.344 +00:00",
+        "updatedAt": "2020-06-27 14:14:14.344 +00:00"
+      },
+      "FromAccount": {
+        "id": 2,
+        "Account": 80074567,
+        "Name": "Mr. O Vilas",
+        "Address": "Flat no. 501, Green View Park,Hinjewandi, Pune",
+        "PhoneNumber": "9001045238",
+        "createdAt": "2020-06-27 14:14:21.367 +00:00",
+        "updatedAt": "2020-06-27 14:14:21.367 +00:00"
+      }
+    },
+    {
+      "id": 9,
+      "TransactionId": "T0175896353",
+      "TransactionDate": "2020-02-17 18:30:00.000 +00:00",
+      "Amount": 28000,
+      "createdAt": "2020-06-27 14:35:48.367 +00:00",
+      "updatedAt": "2020-06-27 14:35:48.367 +00:00",
+      "FromAccountId": 30045721,
+      "ToAccountId": 78524169,
+      "ToAccount": {
+        "id": 5,
+        "Account": 78524169,
+        "Name": "Mrs. N Akira",
+        "Address": "Flat no. 103, Ganaga nagari, Kharadi, Pune",
+        "PhoneNumber": "7521457896",
+        "createdAt": "2020-06-27 14:34:03.992 +00:00",
+        "updatedAt": "2020-06-27 14:34:03.992 +00:00"
+      },
+      "FromAccount": {
+        "id": 3,
+        "Account": 30045721,
+        "Name": "Mr. A Gupta",
+        "Address": "Flat no. 103, Ganaga nagari, Kharadi, Pune",
+        "PhoneNumber": "7521457896",
+        "createdAt": "2020-06-27 14:33:50.405 +00:00",
+        "updatedAt": "2020-06-27 14:33:50.405 +00:00"
+      }
+    },
+    {
+      "id": 12,
+      "TransactionId": "T0175896356",
+      "TransactionDate": "2020-03-08 18:30:00.000 +00:00",
+      "Amount": 64000,
+      "createdAt": "2020-06-27 14:36:08.095 +00:00",
+      "updatedAt": "2020-06-27 14:36:08.095 +00:00",
+      "FromAccountId": 78524169,
+      "ToAccountId": 30045721,
+      "ToAccount": {
+        "id": 3,
+        "Account": 30045721,
+        "Name": "Mr. A Gupta",
+        "Address": "Flat no. 103, Ganaga nagari, Kharadi, Pune",
+        "PhoneNumber": "7521457896",
+        "createdAt": "2020-06-27 14:33:50.405 +00:00",
+        "updatedAt": "2020-06-27 14:33:50.405 +00:00"
+      },
+      "FromAccount": {
+        "id": 5,
+        "Account": 78524169,
+        "Name": "Mrs. N Akira",
+        "Address": "Flat no. 103, Ganaga nagari, Kharadi, Pune",
+        "PhoneNumber": "7521457896",
+        "createdAt": "2020-06-27 14:34:03.992 +00:00",
+        "updatedAt": "2020-06-27 14:34:03.992 +00:00"
+      }
+    },
+    {
+      "id": 14,
+      "TransactionId": "T0175896358",
+      "TransactionDate": "2020-03-24 18:30:00.000 +00:00",
+      "Amount": 89000,
+      "createdAt": "2020-06-27 14:36:23.595 +00:00",
+      "updatedAt": "2020-06-27 14:36:23.595 +00:00",
+      "FromAccountId": 10010589,
+      "ToAccountId": 80074567,
+      "ToAccount": {
+        "id": 2,
+        "Account": 80074567,
+        "Name": "Mr. O Vilas",
+        "Address": "Flat no. 501, Green View Park,Hinjewandi, Pune",
+        "PhoneNumber": "9001045238",
+        "createdAt": "2020-06-27 14:14:21.367 +00:00",
+        "updatedAt": "2020-06-27 14:14:21.367 +00:00"
+      },
+      "FromAccount": {
+        "id": 1,
+        "Account": 10010589,
+        "Name": "Mr. S Kumar",
+        "Address": "Flat no. 501, Green View Park,Hinjewandi, Pune",
+        "PhoneNumber": "9001045238",
+        "createdAt": "2020-06-27 14:14:14.344 +00:00",
+        "updatedAt": "2020-06-27 14:14:14.344 +00:00"
+      }
+    }
+  ],
+  "groupedByMonth": {
+    "Jan": [
+      "T0175896345",
+      "T0175896347",
+      "T0175896349"
+    ],
+    "Feb": [
+      "T0175896350",
+      "T0175896353"
+    ],
+    "Mar": [
+      "T0175896356",
+      "T0175896358"
+    ]
+  },
+  "suspiciousAccounts": {
+    "90085156": [
+      10010589,
+      80074567
+    ],
+    "108569890": [
+      78524169,
+      30045721
+    ]
+  },
+  "emptyQueryResult": [],
+  "emptygroupedByMonth": {},
+  "emptySuspiciousAccounts": {}
+}

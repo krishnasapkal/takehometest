@@ -1,0 +1,20 @@
+{
+  "customerValidData": {
+    "Account": "10010589",
+    "Name": "Mr. S Kumar",
+    "Address": "Flat no. 501, Green View Park,Hinjewandi, Pune",
+    "PhoneNumber": "9001045238"
+  },
+  "customerInvalidData": {
+    "Name": "Mr. S Kumar",
+    "Address": "Flat no. 501, Green View Park,Hinjewandi, Pune",
+    "PhoneNumber": "9001045238"
+  },
+  "dbError": {
+    "errors": [
+      {
+        "message": "Account alreaddy exists"
+      }
+    ]
+  }
+}

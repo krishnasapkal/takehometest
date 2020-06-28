@@ -1,0 +1,22 @@
+{
+  "transactionValidData": {
+    "TransactionId": "T0175896345",
+    "FromAccountId": "10010589",
+    "ToAccountId": "80074567",
+    "Amount": "100000",
+    "TransactionDate": "10-Jan-20"
+  },
+  "transactionInValidData": {
+    "FromAccountId": "10010589",
+    "ToAccountId": "80074567",
+    "Amount": "100000",
+    "TransactionDate": "10-Jan-20"
+  },
+  "dbError": {
+    "errors": [
+      {
+        "message": "Account alreaddy exists"
+      }
+    ]
+  }
+}
