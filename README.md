@@ -1,7 +1,9 @@
 Take home test - Flag suspicious activity.
 
 ## Index
-* [Install Dependencies](#Install Dependencies)
+* Install Dependencies
+* Unit Tests
+* Start App
 
 ## Install Dependencies
 ```
@@ -14,7 +16,8 @@ npm i
 npm test
 ```
 
-##Start app
+
+## Start App
 
 ```
 npm start
