@@ -1,10 +1,11 @@
 Take home test - Flag suspicious activity.
 
 ## Index
-* Install Dependencies
-* Unit Tests
+* Install dependencies
+* Unit tests
 * Start App
-* Input Format
+* Input format
+* Validation rules
 
 ## Install Dependencies
 ```
@@ -41,7 +42,7 @@ Example -
 ##### Above functionality is added to make testing possible on various combination of data.
 
 
-## Validation rules Assummptions
+## Validation rules
 
 ##### 1 - Transaction can be added only if `ToAccount` and `FromAccount` are available in the customers database.
 ##### 2 - Phone number can only have 10 characters as we are making application in India.
