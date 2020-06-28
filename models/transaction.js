@@ -4,13 +4,17 @@ const {
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
   class Transaction extends Model {
-    /**
-     * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
-     */
     static associate(models) {
       // define association here
+      Transaction.belongsTo(models.Customer,{
+        as : 'FromAccount',
+        targetKey : 'Account'
+      })
+
+      Transaction.belongsTo(models.Customer,{
+        as : 'ToAccount',
+        targetKey : 'Account'
+      })
     }
   };
   Transaction.init({
@@ -27,14 +31,22 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.DATE,
       allowNull: false
     },
-    FromAccount: {
-      type: DataTypes.NUMBER,
-      allowNull: false
-    },
-    ToAccount: {
-      type: DataTypes.NUMBER,
-      allowNull: false
-    },
+    // FromAccount: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    //   references: {
+    //     model : 'customers',
+    //     key : 'Account'
+    //   }
+    // },
+    // ToAccount: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    //   references: {
+    //     model : 'customers',
+    //     key : 'Account'
+    //   }
+    // },
     Amount: {
       type: DataTypes.NUMBER,
       allowNull: false

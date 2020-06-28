@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 const addCustomer = require('./addCustomer');
 const addTransaction = require('./addTransaction');
 const getResult = require('./getResult');
@@ -9,15 +10,18 @@ module.exports = async (id) => {
       break;
     }
     case 2 : {
-      addTransaction();
+     await addTransaction();
       break;
     }
     case 3 : {
       getResult();
       break;
     }
-    default : {
+    case 4 : {
       process.exit()
+    }
+    default : {
+      console.log(chalk.red('Please enter valid input'))
     }
   }
 }

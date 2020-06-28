@@ -6,13 +6,6 @@ module.exports = (sequelize, DataTypes) => {
   class Customer extends Model {
     static associate(models) {
       // define association here
-      Customer.hasMany(models.Transaction, {
-        foreignKey: { name: 'FromAccount' }
-      })
-
-      Customer.hasMany(models.Transaction, {
-        foreignKey: { name: 'ToAccount' }
-      })
     }
   };
   Customer.init({
@@ -34,7 +27,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false
     },
     PhoneNumber: {
-      type: DataTypes.NUMBER,
+      type: DataTypes.STRING,
       allowNull: false
     }
   }, {
